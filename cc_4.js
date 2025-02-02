@@ -46,3 +46,18 @@ do {
     responses++
     console.log(`The response count is: ${responses}`);
 } while (responses < 3);
+
+//Task 5: For...In Loop
+
+//the lines below are setting up an object named employee
+let employee = {
+    name: "Hulk",
+    position: "Security",
+    salary: 75000
+};
+
+//the lines below are running a for...in loop that logs each property inside the objects in the console
+for (let property in employee) {
+    console.log(`${property}: ${employee[property]}`);
+};
+
