@@ -24,3 +24,14 @@ for (let i = 0; i < sales.length; i++) {
 
 // the line below using template literals to log the value of total in the console
 console.log(`The total sales is $${total}`);
+
+//Task 3: While Loop
+
+//the line below assigning the var "stock" a number value of 10
+let stock = 10;
+
+//the lines below run a while loop which subtracts 1 from the stock until it goes to 0
+while (stock >= 0) {
+    console.log(`The stock is ${stock}`);
+    stock -= 1;
+};
