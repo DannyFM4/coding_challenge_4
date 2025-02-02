@@ -6,7 +6,7 @@ let purchaseAmount = 120;
 //the lines below are using an if statement to give a discount only if the price is above 100
 if (purchaseAmount > 100) {
     purchaseAmount *= .9;
-}
+};
 
 //the line below is logging the final purchase amount using template literals
 console.log(`Final amount after discount: $${purchaseAmount}`);
@@ -35,3 +35,14 @@ while (stock >= 0) {
     console.log(`The stock is ${stock}`);
     stock -= 1;
 };
+
+//Task 4: Do...While Loop
+
+//the line below assigning var "responses" the number value 0
+let responses = 0;
+
+//the lines below are running a do...while loop which is adding 1 to the value of responses until it gets to 3
+do {
+    responses++
+    console.log(`The response count is: ${responses}`);
+} while (responses < 3);
