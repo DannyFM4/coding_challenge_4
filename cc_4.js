@@ -61,3 +61,12 @@ for (let property in employee) {
     console.log(`${property}: ${employee[property]}`);
 };
 
+//Task 6: For...Of Loop
+
+//the line below creates an array named products and assign 3 products to it
+let products = ["Playstation", "Monitor", "Controller"];
+
+//the lines below use a for...of loop to log each product in the console
+for (const element of products) {
+    console.log(`Product: ${element}`);
+};
