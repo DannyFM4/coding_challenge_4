@@ -80,3 +80,20 @@ let orders = [2251, 2252, 2253];
 orders.forEach(order => {
     console.log(`Order ID: ${order}`);
 });
+
+//Task 8: Function Declaration
+
+//the lines below run a function that calculates the tax amount by multiplying the price and tax rate
+function calculateTax(amount, taxRate){
+    return amount * taxRate;
+};
+
+//the lines below assign the variables a number value
+let amount = 100;
+const taxRate = 0.06;
+
+//the line below is assigning the variable whatever the output of the function is
+let taxAmount = calculateTax(amount, taxRate);
+
+//the line below is logging the tax amount in the console
+console.log(`The amount of tax is $${taxAmount}`);
