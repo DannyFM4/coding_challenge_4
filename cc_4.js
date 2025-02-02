@@ -70,3 +70,13 @@ let products = ["Playstation", "Monitor", "Controller"];
 for (const element of products) {
     console.log(`Product: ${element}`);
 };
+
+//Task 7: forEach() Method
+
+//the line below creates an array called orders with order IDs in it
+let orders = [2251, 2252, 2253];
+
+//the lines below use a forEach loop to log each order ID in the console
+orders.forEach(order => {
+    console.log(`Order ID: ${order}`);
+});
