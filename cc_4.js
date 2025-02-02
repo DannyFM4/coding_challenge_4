@@ -97,3 +97,20 @@ let taxAmount = calculateTax(amount, taxRate);
 
 //the line below is logging the tax amount in the console
 console.log(`The amount of tax is $${taxAmount}`);
+
+//Task 9: Function Expressions
+
+//the lines below run a function that will find the discount by multiplying the price with the discount percent, then subtract it from the original price
+function applyDiscount(price, discountPercentage){
+    return price - (price * discountPercentage/100);
+};
+
+//the lines below are assigning number values to the variables
+let price = 200;
+let discountPercentage = 20;
+
+//the line below is assigning the variable whatever the output of the function is
+let discountedPrice = applyDiscount(price, discountPercentage);
+
+//the line below is logging the discounted price in the console
+console.log(`The discounted price is $${discountedPrice}`);
