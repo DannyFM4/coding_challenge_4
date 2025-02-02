@@ -114,3 +114,14 @@ let discountedPrice = applyDiscount(price, discountPercentage);
 
 //the line below is logging the discounted price in the console
 console.log(`The discounted price is $${discountedPrice}`);
+
+//Task 10: Arrow Functions
+
+//the line below uses an arrow function to find the amount of reward points received from purchase, this found by dividing the purchasePrice by 10
+let calculatePoints = purchasePrice => purchasePrice/10;
+
+//this line assigns purchasePrice a number value
+let purchasePrice = 1000;
+
+//this line logs the amount of reward points in the console
+console.log(`You earned ${calculatePoints(purchasePrice)} reward points!`);
